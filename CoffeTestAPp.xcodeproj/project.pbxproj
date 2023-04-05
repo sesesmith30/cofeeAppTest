@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7330FDBDA4D90F2371CFFFA6 /* Pods_CoffeTestAPp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FCF5ABD3C847C05B49D1FA /* Pods_CoffeTestAPp.framework */; };
+		B9A3FFBC0CFE172BD812BC04 /* Pods_CoffeTestAPp_CoffeTestAPpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0360893FD3F45472B8EB0F57 /* Pods_CoffeTestAPp_CoffeTestAPpUITests.framework */; };
 		FBEF5A8129DD6D2B00844B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A8029DD6D2B00844B20 /* AppDelegate.swift */; };
 		FBEF5A8329DD6D2B00844B20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A8229DD6D2B00844B20 /* SceneDelegate.swift */; };
 		FBEF5A8529DD6D2B00844B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A8429DD6D2B00844B20 /* ViewController.swift */; };
-		FBEF5A8829DD6D2B00844B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A8629DD6D2B00844B20 /* Main.storyboard */; };
 		FBEF5A8A29DD6D2C00844B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A8929DD6D2C00844B20 /* Assets.xcassets */; };
 		FBEF5A8D29DD6D2C00844B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEF5A8B29DD6D2C00844B20 /* LaunchScreen.storyboard */; };
 		FBEF5A9829DD6D2C00844B20 /* CoffeTestAPpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5A9729DD6D2C00844B20 /* CoffeTestAPpTests.swift */; };
 		FBEF5AA229DD6D2C00844B20 /* CoffeTestAPpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5AA129DD6D2C00844B20 /* CoffeTestAPpUITests.swift */; };
 		FBEF5AA429DD6D2C00844B20 /* CoffeTestAPpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5AA329DD6D2C00844B20 /* CoffeTestAPpUITestsLaunchTests.swift */; };
+		FBEF5AB229DD6E4C00844B20 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5AB129DD6E4C00844B20 /* Item.swift */; };
+		FBEF5AB429DD6E6900844B20 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5AB329DD6E6900844B20 /* Order.swift */; };
+		FBEF5AB629DD702700844B20 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5AB529DD702700844B20 /* ItemCell.swift */; };
+		FBEF5ABB29DD7FA800844B20 /* ReviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5ABA29DD7FA800844B20 /* ReviewController.swift */; };
+		FBEF5ABD29DD806A00844B20 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5ABC29DD806A00844B20 /* SummaryCell.swift */; };
+		FBF296507CFB6E3C3E76EF0E /* Pods_CoffeTestAPpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C682A98E7A33C2E9865130D6 /* Pods_CoffeTestAPpTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0360893FD3F45472B8EB0F57 /* Pods_CoffeTestAPp_CoffeTestAPpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeTestAPp_CoffeTestAPpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FCF5ABD3C847C05B49D1FA /* Pods_CoffeTestAPp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeTestAPp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C6F4EB1020C85B90ED2F5C /* Pods-CoffeTestAPp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeTestAPp.release.xcconfig"; path = "Target Support Files/Pods-CoffeTestAPp/Pods-CoffeTestAPp.release.xcconfig"; sourceTree = "<group>"; };
+		1C3A67E43320C3C2FE2391BA /* Pods-CoffeTestAPpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeTestAPpTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeTestAPpTests/Pods-CoffeTestAPpTests.release.xcconfig"; sourceTree = "<group>"; };
+		219A1943DFAB2D9094290FF0 /* Pods-CoffeTestAPp-CoffeTestAPpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeTestAPp-CoffeTestAPpUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeTestAPp-CoffeTestAPpUITests/Pods-CoffeTestAPp-CoffeTestAPpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE389AE7EABCF45A60C3C6B /* Pods-CoffeTestAPpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeTestAPpTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeTestAPpTests/Pods-CoffeTestAPpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A145D33F23B7BCAE6414C7AF /* Pods-CoffeTestAPp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeTestAPp.debug.xcconfig"; path = "Target Support Files/Pods-CoffeTestAPp/Pods-CoffeTestAPp.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C5F975B7C7688168C2EAD2 /* Pods-CoffeTestAPp-CoffeTestAPpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeTestAPp-CoffeTestAPpUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeTestAPp-CoffeTestAPpUITests/Pods-CoffeTestAPp-CoffeTestAPpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C682A98E7A33C2E9865130D6 /* Pods_CoffeTestAPpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeTestAPpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF5A7D29DD6D2B00844B20 /* CoffeTestAPp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeTestAPp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF5A8029DD6D2B00844B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEF5A8229DD6D2B00844B20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FBEF5A8429DD6D2B00844B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBEF5A8729DD6D2B00844B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBEF5A8929DD6D2C00844B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBEF5A8C29DD6D2C00844B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBEF5A8E29DD6D2C00844B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,11 @@
 		FBEF5A9D29DD6D2C00844B20 /* CoffeTestAPpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeTestAPpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF5AA129DD6D2C00844B20 /* CoffeTestAPpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeTestAPpUITests.swift; sourceTree = "<group>"; };
 		FBEF5AA329DD6D2C00844B20 /* CoffeTestAPpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeTestAPpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBEF5AB129DD6E4C00844B20 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FBEF5AB329DD6E6900844B20 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FBEF5AB529DD702700844B20 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		FBEF5ABA29DD7FA800844B20 /* ReviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewController.swift; sourceTree = "<group>"; };
+		FBEF5ABC29DD806A00844B20 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7330FDBDA4D90F2371CFFFA6 /* Pods_CoffeTestAPp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF296507CFB6E3C3E76EF0E /* Pods_CoffeTestAPpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A3FFBC0CFE172BD812BC04 /* Pods_CoffeTestAPp_CoffeTestAPpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F750B27C5C7B6F9AC1809EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FCF5ABD3C847C05B49D1FA /* Pods_CoffeTestAPp.framework */,
+				0360893FD3F45472B8EB0F57 /* Pods_CoffeTestAPp_CoffeTestAPpUITests.framework */,
+				C682A98E7A33C2E9865130D6 /* Pods_CoffeTestAPpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87B6E4B1B782A8FEB0223559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A145D33F23B7BCAE6414C7AF /* Pods-CoffeTestAPp.debug.xcconfig */,
+				16C6F4EB1020C85B90ED2F5C /* Pods-CoffeTestAPp.release.xcconfig */,
+				219A1943DFAB2D9094290FF0 /* Pods-CoffeTestAPp-CoffeTestAPpUITests.debug.xcconfig */,
+				B6C5F975B7C7688168C2EAD2 /* Pods-CoffeTestAPp-CoffeTestAPpUITests.release.xcconfig */,
+				9BE389AE7EABCF45A60C3C6B /* Pods-CoffeTestAPpTests.debug.xcconfig */,
+				1C3A67E43320C3C2FE2391BA /* Pods-CoffeTestAPpTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FBEF5A7429DD6D2B00844B20 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				FBEF5A9629DD6D2C00844B20 /* CoffeTestAPpTests */,
 				FBEF5AA029DD6D2C00844B20 /* CoffeTestAPpUITests */,
 				FBEF5A7E29DD6D2B00844B20 /* Products */,
+				87B6E4B1B782A8FEB0223559 /* Pods */,
+				6F750B27C5C7B6F9AC1809EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +147,11 @@
 		FBEF5A7F29DD6D2B00844B20 /* CoffeTestAPp */ = {
 			isa = PBXGroup;
 			children = (
+				FBEF5AB729DD78D500844B20 /* UI */,
+				FBEF5AB029DD6E3100844B20 /* Models */,
 				FBEF5A8029DD6D2B00844B20 /* AppDelegate.swift */,
 				FBEF5A8229DD6D2B00844B20 /* SceneDelegate.swift */,
 				FBEF5A8429DD6D2B00844B20 /* ViewController.swift */,
-				FBEF5A8629DD6D2B00844B20 /* Main.storyboard */,
 				FBEF5A8929DD6D2C00844B20 /* Assets.xcassets */,
 				FBEF5A8B29DD6D2C00844B20 /* LaunchScreen.storyboard */,
 				FBEF5A8E29DD6D2C00844B20 /* Info.plist */,
@@ -127,6 +176,41 @@
 			path = CoffeTestAPpUITests;
 			sourceTree = "<group>";
 		};
+		FBEF5AB029DD6E3100844B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF5AB129DD6E4C00844B20 /* Item.swift */,
+				FBEF5AB329DD6E6900844B20 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBEF5AB729DD78D500844B20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF5AB929DD7F9E00844B20 /* VC */,
+				FBEF5AB829DD7F9600844B20 /* cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FBEF5AB829DD7F9600844B20 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF5AB529DD702700844B20 /* ItemCell.swift */,
+				FBEF5ABC29DD806A00844B20 /* SummaryCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FBEF5AB929DD7F9E00844B20 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF5ABA29DD7FA800844B20 /* ReviewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEF5AA729DD6D2C00844B20 /* Build configuration list for PBXNativeTarget "CoffeTestAPp" */;
 			buildPhases = (
+				5BEB21D120404BE1E65B9DAF /* [CP] Check Pods Manifest.lock */,
 				FBEF5A7929DD6D2B00844B20 /* Sources */,
 				FBEF5A7A29DD6D2B00844B20 /* Frameworks */,
 				FBEF5A7B29DD6D2B00844B20 /* Resources */,
+				2A5DEA4AABAE4BA21A98E54F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEF5AAA29DD6D2C00844B20 /* Build configuration list for PBXNativeTarget "CoffeTestAPpTests" */;
 			buildPhases = (
+				AB40C0D5FD9BC34E6B125562 /* [CP] Check Pods Manifest.lock */,
 				FBEF5A8F29DD6D2C00844B20 /* Sources */,
 				FBEF5A9029DD6D2C00844B20 /* Frameworks */,
 				FBEF5A9129DD6D2C00844B20 /* Resources */,
@@ -169,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEF5AAD29DD6D2C00844B20 /* Build configuration list for PBXNativeTarget "CoffeTestAPpUITests" */;
 			buildPhases = (
+				793990DABDC8D8C44483C69F /* [CP] Check Pods Manifest.lock */,
 				FBEF5A9929DD6D2C00844B20 /* Sources */,
 				FBEF5A9A29DD6D2C00844B20 /* Frameworks */,
 				FBEF5A9B29DD6D2C00844B20 /* Resources */,
+				88B357DE808C72DAFCC91B97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +322,6 @@
 			files = (
 				FBEF5A8D29DD6D2C00844B20 /* LaunchScreen.storyboard in Resources */,
 				FBEF5A8A29DD6D2C00844B20 /* Assets.xcassets in Resources */,
-				FBEF5A8829DD6D2B00844B20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +341,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A5DEA4AABAE4BA21A98E54F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeTestAPp/Pods-CoffeTestAPp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeTestAPp/Pods-CoffeTestAPp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeTestAPp/Pods-CoffeTestAPp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BEB21D120404BE1E65B9DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeTestAPp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793990DABDC8D8C44483C69F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeTestAPp-CoffeTestAPpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B357DE808C72DAFCC91B97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeTestAPp-CoffeTestAPpUITests/Pods-CoffeTestAPp-CoffeTestAPpUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeTestAPp-CoffeTestAPpUITests/Pods-CoffeTestAPp-CoffeTestAPpUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeTestAPp-CoffeTestAPpUITests/Pods-CoffeTestAPp-CoffeTestAPpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB40C0D5FD9BC34E6B125562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeTestAPpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBEF5A7929DD6D2B00844B20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEF5AB229DD6E4C00844B20 /* Item.swift in Sources */,
+				FBEF5ABB29DD7FA800844B20 /* ReviewController.swift in Sources */,
+				FBEF5ABD29DD806A00844B20 /* SummaryCell.swift in Sources */,
 				FBEF5A8529DD6D2B00844B20 /* ViewController.swift in Sources */,
+				FBEF5AB629DD702700844B20 /* ItemCell.swift in Sources */,
+				FBEF5AB429DD6E6900844B20 /* Order.swift in Sources */,
 				FBEF5A8129DD6D2B00844B20 /* AppDelegate.swift in Sources */,
 				FBEF5A8329DD6D2B00844B20 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FBEF5A8629DD6D2B00844B20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBEF5A8729DD6D2B00844B20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBEF5A8B29DD6D2C00844B20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +620,7 @@
 		};
 		FBEF5AA829DD6D2C00844B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A145D33F23B7BCAE6414C7AF /* Pods-CoffeTestAPp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +631,6 @@
 				INFOPLIST_FILE = CoffeTestAPp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +648,7 @@
 		};
 		FBEF5AA929DD6D2C00844B20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C6F4EB1020C85B90ED2F5C /* Pods-CoffeTestAPp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +659,6 @@
 				INFOPLIST_FILE = CoffeTestAPp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +676,7 @@
 		};
 		FBEF5AAB29DD6D2C00844B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE389AE7EABCF45A60C3C6B /* Pods-CoffeTestAPpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +697,7 @@
 		};
 		FBEF5AAC29DD6D2C00844B20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3A67E43320C3C2FE2391BA /* Pods-CoffeTestAPpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +718,7 @@
 		};
 		FBEF5AAE29DD6D2C00844B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219A1943DFAB2D9094290FF0 /* Pods-CoffeTestAPp-CoffeTestAPpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +737,7 @@
 		};
 		FBEF5AAF29DD6D2C00844B20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C5F975B7C7688168C2EAD2 /* Pods-CoffeTestAPp-CoffeTestAPpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

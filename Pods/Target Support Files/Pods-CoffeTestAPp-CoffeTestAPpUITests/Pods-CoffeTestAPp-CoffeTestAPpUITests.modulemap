@@ -1,0 +1,6 @@
+framework module Pods_CoffeTestAPp_CoffeTestAPpUITests {
+  umbrella header "Pods-CoffeTestAPp-CoffeTestAPpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
